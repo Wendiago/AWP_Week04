@@ -8,6 +8,3 @@ export default async function fetchPhotoDetail(id) {
   });
   return response.data;
 }
-
-const data = await fetchPhotoDetail("JtwzKGec2vc");
-console.log(data);
